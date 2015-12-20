@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        style="@style/Exterior"
+        tools:context="chacon.joan.avistapp.MainActivity">
+
+        <TextView
+            android:text="@string/rutas"
+            style="@style/Titulo"/>
+
+        <LinearLayout
+            style="@style/Item"
+            android:onClick="opensanmiguel">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sanmiguelprueba" />
+            <LinearLayout
+                style="@style/Name">
+
+                <TextView
+                    android:text="@string/rutasanmiguel"
+                    style="@style/TextViewNameStyle"/>
+
+            </LinearLayout>
+
+         </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

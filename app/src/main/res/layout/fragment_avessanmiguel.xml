@@ -1,0 +1,49 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        style="@style/Exterior"
+        tools:context="chacon.joan.avistapp.avessanmiguel">
+
+        <LinearLayout
+            style="@style/Item"
+            android:onClick="openave1">
+
+            <LinearLayout
+                style="@style/Name">
+
+                <TextView
+                    android:text="@string/ave1"
+                    style="@style/TextViewNameStyle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/Item"
+            >
+
+            <LinearLayout
+                style="@style/Name">
+
+                <TextView
+                    android:text="@string/ave2"
+                    style="@style/TextViewNameStyle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
